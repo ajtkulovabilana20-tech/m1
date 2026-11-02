@@ -1,0 +1,131 @@
+[gd_scene load_steps=6 format=3 uid="uid://cx3p8o8vf8g77"]
+
+[ext_resource type="Texture2D" uid="uid://b4urva7wq2c2x" path="res://icon.svg" id="1_26gr6"]
+[ext_resource type="Script" uid="uid://jgivcre2saxh" path="res://player.gd" id="2_s3bci"]
+[ext_resource type="Texture2D" uid="uid://ok0umpf3mtn7" path="res://WallPixel.png" id="2_torwd"]
+[ext_resource type="Texture2D" uid="uid://cg1y3ifyxqr2j" path="res://player.png" id="3_nkbvh"]
+[ext_resource type="Script" uid="uid://b13vlk4fwcw31" path="res://sprite_2d.gd" id="4_dnbgo"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(540, 233)
+scale = Vector2(0.757813, 0.78125)
+texture = ExtResource("1_26gr6")
+centered = false
+script = ExtResource("2_s3bci")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+position = Vector2(-209.814, 7.17165e-06)
+scale = Vector2(0.102418, 0.0649275)
+texture = ExtResource("3_nkbvh")
+centered = false
+script = ExtResource("4_dnbgo")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(267, -27)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(560, -28)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(857, -29)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(1.00006, -29)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+position = Vector2(8, 530)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D10" type="Sprite2D" parent="."]
+position = Vector2(8, 530)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D11" type="Sprite2D" parent="."]
+position = Vector2(8, 530)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D12" type="Sprite2D" parent="."]
+position = Vector2(-187, 415)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D13" type="Sprite2D" parent="."]
+position = Vector2(-187, 308)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D14" type="Sprite2D" parent="."]
+position = Vector2(-187, 191)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D15" type="Sprite2D" parent="."]
+position = Vector2(-187, 92)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D16" type="Sprite2D" parent="."]
+position = Vector2(1021, 92)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D17" type="Sprite2D" parent="."]
+position = Vector2(1021, 211)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D18" type="Sprite2D" parent="."]
+position = Vector2(1021, 330)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D19" type="Sprite2D" parent="."]
+position = Vector2(1021, 415)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D7" type="Sprite2D" parent="."]
+position = Vector2(288, 530)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D8" type="Sprite2D" parent="."]
+position = Vector2(560, 530)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
+
+[node name="Sprite2D9" type="Sprite2D" parent="."]
+position = Vector2(851, 528)
+scale = Vector2(0.1313, 0.145122)
+texture = ExtResource("2_torwd")
+centered = false
